@@ -6,6 +6,7 @@ body {
     color: #333;
 }
 
+
 header {
     background-color: #0073e6;
     color: white;
@@ -71,8 +72,8 @@ nav a:hover {
 }
 
 .container {
-    padding: 20px;
-    max-width: 1200px;
+    padding: 5px;
+    max-width: 1700px;
     margin: auto;
 }
 
@@ -97,3 +98,552 @@ footer {
     width: 100%;
 }
 
+
+/* General styles (unchanged) */
+
+.banner {
+    background-color: #0073e6;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.infographics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 60px; /* Increased margin */
+    margin-bottom: 60px; /* Increased margin */
+}
+
+.infographic {
+    text-align: center;
+    max-width: 300px;
+    margin-bottom: 40px;
+}
+
+.infographic img {
+    width: 80px;
+    height: 80px;
+}
+
+.infographic h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.infographic p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.secondary-banner {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.location-map {
+    margin-top: 80px; /* Increased margin */
+    margin-bottom: 80px; /* Increased margin */
+    text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .banner h2 {
+        font-size: 2rem;
+    }
+
+    .banner p {
+        font-size: 1rem;
+    }
+
+    .infographics {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .secondary-banner {
+        padding: 60px 0;
+    }
+
+    .location-map {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}
+
+.business-hours {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+    margin-top: 80px; /* Adjusted margin to create spacing */
+    margin-bottom: 80px; /* Adjusted margin to create spacing */
+    border-radius: 5px;
+}
+
+.business-hours h2 {
+    color: #0073e6;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.business-hours .hours {
+    margin-bottom: 20px;
+}
+
+.business-hours .hours p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.business-hours p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+.liability {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.liability h2 {
+    color: #0073e6;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.liability p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .liability h2 {
+        font-size: 2rem;
+    }
+}
+
+
+/* Your existing CSS styles */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+/* Hide all images by default */
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    max-width: 300px; /* Set maximum width for images */
+    max-height: 200px; /* Set maximum height for images */
+    width: auto; /* Ensure images maintain aspect ratio */
+    height: auto; /* Ensure images maintain aspect ratio */
+    display: block; /* Ensures images are displayed as block elements */
+    margin: 0 auto; /* Center-align images within their parent container */
+}
+/* Navigation dots style */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+/* Active dot */
+.active {
+    background-color: #0073e6;
+}
+
+
+/* Navigation arrows */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* Contact section styles */
+.contact-section {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-section h1 {
+    color: #0073e6;
+    margin-bottom: 20px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.contact-info, .contact-form {
+    flex-basis: 45%;
+}
+
+.contact-info h2, .contact-form h2 {
+    color: #0073e6;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #005bb5;
+}
+
+#map {
+    height: 400px; /* Adjust map height as needed */
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* About Us Page Styles */
+
+/* Section Titles */
+.about-content h2,
+.team-section h2,
+.values-section h2,
+.timeline-section h2,
+.cta-section h2 {
+    color: #0073e6;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* General Content */
+.about-content p,
+.values-section .value p,
+.timeline-section .timeline-event .event-description p,
+.cta-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Team Members */
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Company Values */
+.values-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.value {
+    text-align: center;
+}
+
+.value h3 {
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+/* Timeline Section */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.timeline-event {
+    display: flex;
+    gap: 20px;
+}
+
+.event-date {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    min-width: 100px;
+    text-align: center;
+}
+
+.event-description {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.event-description h3 {
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+.event-description p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Call-to-Action Section */
+.cta-section {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-section .btn {
+    background-color: #0073e6;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-section .btn:hover {
+    background-color: #005bb5;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .about-content h2,
+    .team-section h2,
+    .values-section h2,
+    .timeline-section h2,
+    .cta-section h2 {
+        font-size: 2rem;
+    }
+
+    .team-members {
+        flex-wrap: wrap;
+    }
+
+    .team-member {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+
+    .values-list {
+        flex-wrap: wrap;
+    }
+
+    .value {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+
+    .timeline-event {
+        flex-direction: column;
+    }
+}
+
+
+/* Footer Styles */
+
+
+/* Footer Styles */
+
+footer {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 0;
+    position: relative; /* Position relative to the body */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    flex-basis: 25%;
+    max-width: 200px;
+}
+
+.footer-logo img {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer-contact,
+.footer-links,
+.footer-social {
+    flex-basis: 25%;
+    max-width: 250px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #f9f9f9;
+}
+
+.footer-social .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social .social-icons a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.footer-social .social-icons img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}

@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1st Plumbers Ltd - Contact</title>
+    <title>Contact Us - 1st Plumbers Ltd</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script src="contact.js" defer></script>
 </head>
 <body>
-    <!-- Header and navigation -->
-  <header>
+     <div class="container">
+
+   <header>
+
         <div class="header-content">
             <img src="images/1stplumbers.jpg" alt="1st Plumbers Logo" class="logo">
             <div class="header-details">
@@ -30,7 +35,7 @@
             </div>
         </div>
     </header>
-    <nav>
+      <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About Us</a>
         <a href="services.html">Services</a>
@@ -38,15 +43,75 @@
         <a href="locations.html">Locations</a>
         <a href="contact.html">Contact</a>
     </nav>
+
+    <section class="contact-section">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Visit Us</h2>
+                    <p>1st Plumbers Ltd</p>
+                    <p>123 Main Street, South East London</p>
+                    <h2>Call Us</h2>
+                    <p>General Inquiries: 020 7127 9208</p>
+                    <p>Emergency: 020 3633 1411</p>
+                    <h2>Email Us</h2>
+                    <p>info@1st-plumbers.co.uk</p>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="button" id="submitForm">Send Message</button>
+                        <p id="formStatus"></p>
+                    </form>
+                </div>
+            </div>
+            <div id="map"></div>
+        </div>
+    </section>
+
+<footer>
     <div class="container">
-        <div id="contact" class="section">
-            <h2>Contact Us</h2>
-            <p>For any inquiries or to schedule a service, please call us at 02071279208.</p>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/1stplumbers.jpg" alt="1st Plumbers Logo">
+                <h2>1st Plumbers Ltd</h2>
+                <p>Your Local Plumber</p>
+            </div>
+                        <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@1st-plumbers.co.uk</p>
+                <p>Phone: 020 7127 9208</p>
+                <p>Emergency: 020 3633 1411</p>
+            </div>
+
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 1st Plumbers Ltd. All rights reserved.</p>
         </div>
     </div>
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 1st Plumbers Ltd. All rights reserved.</p>
-    </footer>
+</footer>
+     </div>
 </body>
 </html>
