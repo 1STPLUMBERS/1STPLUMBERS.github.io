@@ -31,14 +31,29 @@
             </div>
         </div>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="services.html">Services</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="locations.html">Locations</a>
-        <a href="contact.html">Contact</a>
+     <nav class="navbar">
+        <div class="brand-title"></div>
+        <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">
+            ☰
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+                <li><a href="."></a></li>
+            </ul>
+        </div>
     </nav>
+      <script>
+        function toggleMenu() {
+            const navbarLinks = document.querySelector('.navbar-links');
+            navbarLinks.classList.toggle('active');
+        }
+    </script>
     <div class="container">
         <div id="services" class="section">
             <h2>Our Services</h2>
