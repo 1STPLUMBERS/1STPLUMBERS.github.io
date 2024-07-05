@@ -39,7 +39,7 @@
             <div class="header-details">
 <h1>1st Plumbers Ltd</h1>
 </header>
-      <nav class="navbar">
+    <nav class="navbar">
         <div class="brand-title"></div>
         <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">
             ☰
@@ -48,7 +48,6 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="locations.html">Locations</a></li>
                 <li><a href="contact.html">Contacts</a></li>
@@ -63,43 +62,42 @@
         }
     </script>
 
-    <section class="contact-section">
-        <div class="container">
-            <h1>Contact Us</h1>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h2>Visit Us</h2>
-                    <p>1st Plumbers Ltd</p>
-                    <p>123 Main Street, South East London</p>
-                    <h2>Call Us</h2>
-                    <p>General Inquiries: 020 7127 9208</p>
-                    <p>Emergency: 020 3633 1411</p>
-                    <h2>Email Us</h2>
-                    <p>info@1st-plumbers.co.uk</p>
-                </div>
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Your Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-                        <button type="button" id="submitForm">Send Message</button>
-                        <p id="formStatus"></p>
-                    </form>
-                </div>
-            </div>
-            <div id="map"></div>
-        </div>
-    </section>
-
+<main class="contacts-page">
+        <h1>1st Plumbers Ltd</h1>
+        
+        <section class="contact-details">
+            <h2>Contact Details</h2>
+            <p>For reliable plumbing solutions in South London, contact 1st Plumbers Ltd today. Whether you need residential plumbing services or commercial plumbing installations, we are here to help.</p>
+            <ul>
+                <li><strong>Email:</strong> info@1st-plumbers.co.uk</li>
+                <li><strong>Phone:</strong> 020 7127 9208</li>
+                <li><strong>Emergency Number:</strong> 020 3633 1411</li>
+            </ul>
+        </section>
+        
+        <section class="contact-form">
+            <h2>Send us a Message</h2>
+            <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        
+        
+        <section class="social-media">
+            <h2>Social Media</h2>
+            <p>Connect with us on social media:</p>
+            <p>[Links to social media profiles]</p>
+        </section>
+    </main>
 <footer>
     <div class="container">
         <div class="footer-content">
