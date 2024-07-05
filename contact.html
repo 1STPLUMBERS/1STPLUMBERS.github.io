@@ -8,127 +8,193 @@
     <!-- Google Maps API -->
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
     <script src="contact.js" defer></script>
-</head>
-<body>
      <div class="container">
+<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-<!-- Header  --> 
-<header class="header-desktop">
-  <div class="header-content">
-            <img src="images/1stplumbers.jpg" alt="1st Plumbers Logo" class="logo">
-            <div class="header-details">
-                <h1>1st Plumbers Ltd</h1>
-                <p>Professional Plumbing, Heating, and Drainage Services</p>
-            </div>
-            <div class="header-contact">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
 
-                <p>info@1st-plumbers.co.uk</p>
-                <p>Call us: 020 7127 9208</p>
-                <p>Emergency Number: 020 3633 1411 </p>
-                <p>
-                    <a href="https://wa.me/07501788217" target="_blank">
-                        <img src="images/WhatsApp_icon.png.webp" alt="WhatsApp Icon" class="icon"> Chat with us on WhatsApp
-                    </a>
-                </p>
-            </div>
-        </div>
-</header>
-<header class="header-mobile">
-  <div class="header-content">
-            <img src="images/1stplumbers.jpg" alt="1st Plumbers Logo" class="logo">
-            <div class="header-details">
-<h1>1st Plumbers Ltd</h1>
-</header>
-    <nav class="navbar">
-        <div class="brand-title"></div>
-        <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">
-            ☰
-        </a>
-        <div class="navbar-links">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="locations.html">Locations</a></li>
-                <li><a href="contact.html">Contacts</a></li>
-                <li><a href="."></a></li>
-            </ul>
-        </div>
-    </nav>
-      <script>
-        function toggleMenu() {
-            const navbarLinks = document.querySelector('.navbar-links');
-            navbarLinks.classList.toggle('active');
-        }
-    </script>
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
 
-<main class="contacts-page">
-        <h1>1st Plumbers Ltd</h1>
-        
-        <section class="contact-details">
-            <h2>Contact Details</h2>
-            <p>For reliable plumbing solutions in South London, contact 1st Plumbers Ltd today. Whether you need residential plumbing services or commercial plumbing installations, we are here to help.</p>
-            <ul>
-                <li><strong>Email:</strong> info@1st-plumbers.co.uk</li>
-                <li><strong>Phone:</strong> 020 7127 9208</li>
-                <li><strong>Emergency Number:</strong> 020 3633 1411</li>
-            </ul>
-        </section>
-        
-        <section class="contact-form">
-            <h2>Send us a Message</h2>
-            <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Your Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">Your Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-        
-        
-        <section class="social-media">
-            <h2>Social Media</h2>
-            <p>Connect with us on social media:</p>
-            <p>[Links to social media profiles]</p>
-        </section>
-    </main>
-<footer>
-    <div class="container">
-        <div class="footer-content">
-            <div class="footer-logo">
-                <img src="images/1stplumbers.jpg" alt="1st Plumbers Logo">
-                <h2>1st Plumbers Ltd</h2>
-                <p>Your Local Plumber</p>
-            </div>
-                        <div class="footer-links">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-contact">
-                <h3>Contact Us</h3>
-                <p>Email: info@1st-plumbers.co.uk</p>
-                <p>Phone: 020 7127 9208</p>
-                <p>Emergency: 020 3633 1411</p>
-            </div>
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+    
 
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 1st Plumbers Ltd. All rights reserved.</p>
-        </div>
-    </div>
-</footer>
-     </div>
-</body>
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container-wrap">
+			<div class="top-menu">
+				<div class="row">
+					<div class="col-xs-2">
+						<div id="fh5co-logo"><a href="index.html">1ST Plumbers</a></div>
+					</div>
+					<div class="col-xs-10 text-right menu-1">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="locations.html">locations</a>
+
+							</li>
+							<li><a href="about.html">About</a></li>
+							<li class="active"><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</nav>
+	<div class="container-wrap">
+		<aside id="fh5co-hero">
+			<div class="flexslider">
+				<ul class="slides">
+			   	<li style="background-image: url(images2/img_bg_3.jpg);">
+			   		<div class="overlay-gradient"></div>
+			   		<div class="container-fluids">
+			   			<div class="row">
+				   			<div class="col-md-6 col-md-offset-3 slider-text slider-text-bg">
+				   				<div class="slider-text-inner text-center">
+				   					<h1>Contact</h1>
+										</div>
+				   			</div>
+				   		</div>
+			   		</div>
+			   	</li>		   	
+			  	</ul>
+		  	</div>
+		</aside>		
+		<div id="fh5co-contact">
+			<div class="row animate-box">
+				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+					<h2>Contact us</h2>
+					<p>Professional Plumbing, Heating, and Drainage Services</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-md-push-1 animate-box">
+					<h3>Our Information</h3>
+					<ul class="contact-info">
+						<li><i class="icon-phone3"></i>+ 020 7127 9208</li>
+						<li><i class="icon-location3"></i><a href="#">info@1st-plumbers.co.uk</a></li>
+
+					</ul>
+				</div>
+				<div class="col-md-7 col-md-push-1 animate-box">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Name">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Email">
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
+								<textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
+								<input type="submit" value="Send Message" class="btn btn-primary btn-modify">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- END container-wrap -->
+
+	<div class="container-wrap">
+		<footer id="fh5co-footer" role="contentinfo">
+			<div class="row">
+				<div class="col-md-3 fh5co-widget">
+					<h4>1st Plumbers Ltd</h4>
+					<p>Your Local Plumber  </p>
+				</div>
+
+				<div class="col-md-3 col-md-push-1">
+					<h4>Links</h4>
+					<ul class="fh5co-footer-links">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Work</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">About us</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-3">
+					<h4>Contact Information</h4>
+					<ul class="fh5co-footer-links">
+						<li>Emergency:, <br> 020 3633 1411</li>
+						<li><a href="tel://020 7127 9208">020 7127 9208</a></li>
+						<li><a href="mailto:info@1st-plumbers.co.uk">info@1st-plumbers.co.uk</a></li>
+					</ul>
+				</div>
+
+			</div>
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy;  2024 1st Plumbers Ltd. All rights reserved.</small> 
+						</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</footer>
+	</div><!-- END container-wrap -->
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
