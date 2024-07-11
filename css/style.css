@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-nav {
-  margin: 5em 0 0 0;
+ 
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav {
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 24px;
   margin: 0;
   padding: 0;
-  text-transform: uppercase;
+  text-align:start;
   font-weight: 600;
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -344,6 +344,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
+  text-align: left;
 }
 #fh5co-hero .btn {
   font-size: 24px;
@@ -415,6 +416,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   color: black;
   font-family: "Oxygen", sans-serif;
+  text-align: left;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h1 {
   margin-bottom: 20px;
@@ -435,9 +437,11 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 a {
   color: #0073e6
   border-bottom: #0073e6;
+  
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner .heading-section {
   font-size: 50px;
+  text-align: left;
 }
 @media screen and (max-width: 768px) {
   #fh5co-hero .flexslider .slider-text > .slider-text-inner .heading-section {
@@ -448,6 +452,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-lead {
   font-size: 20px;
   color: #fff;
+  text-align: left;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner s
 .fh5co-lead .icon-heart {
@@ -460,6 +465,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
   padding: 20px 30px !important;
   border: none;
+  text-align: left;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
   background: #fff;

@@ -1239,4 +1239,39 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}.contact-banner {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.contact-banner p {
+    margin: 0;
+}
+
+.contact-banner a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+}
+
+
+    /* Styles for the contact banner */
+    .contactbanner {
+        background-color: #ffffff; /* Background color */
+        padding: 10px 20px; /* Padding inside the banner */
+        text-align: center; /* Center align text */
+        font-size: 12px; /* Font size of text */
+        font-weight: bold; /* Bold font weight */
+        color: #000000;
+    }
+
+    /* Optional: Adjust margin or additional styles */
+    .contactbanner {
+        margin-bottom: 10px; /* Example of adding margin */
+    }
+
+.slider-text-inner text-center{
+
 }
