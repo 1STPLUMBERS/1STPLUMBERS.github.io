@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Emergency Plumbing Services in Greenwich - 24/7 Response for Burst Pipes, Leaks, and Plumbing Emergencies. Call Now for Immediate Assistance.">
+    <meta name="keywords" content="Emergency Plumbing, Plumbing Services, Greenwich Plumber, 24/7 Plumber, Burst Pipe Repair, Leaks, Blocked Drains">
+    <meta name="author" content="Your Company Name">
+    <title>Emergency Plumbing in Greenwich | 24/7 Service</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Emergency Plumbing in Greenwich</h1>
+        <p>24/7 Plumbing Services | Fast Response | Call Us Now: <a href="tel:+441234567890">+44 1234 567 890</a></p>
+        <a href="tel:+441234567890" class="call-button">Call Now</a>
+    </header>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>24/7 Emergency Plumbing</li>
+            <li>Burst Pipe Repair</li>
+            <li>Leak Detection and Repair</li>
+            <li>Blocked Drains and Sewers</li>
+            <li>Water Heater Repair</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of certified and experienced plumbers based in Greenwich, offering reliable emergency plumbing services. Our goal is to provide fast, efficient, and affordable solutions to all your plumbing emergencies, day or night.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have a plumbing emergency, don't hesitate to contact us immediately.</p>
+        <p>Phone: <a href="tel:+441234567890">+44 1234 567 890</a></p>
+        <p>Email: <a href="mailto:info@greenwichplumbing.com">info@greenwichplumbing.com</a></p>
+        <p>Address: 123 Greenwich High Road, Greenwich, London SE10 8JA</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Greenwich Emergency Plumbing. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
