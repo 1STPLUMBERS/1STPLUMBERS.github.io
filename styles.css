@@ -274,10 +274,11 @@ header img.logo {
 
 /* Container for layout */
 .container {
-    max-width: 2000px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 2em;
     border-radius: 10px;
+
 }
 
 
@@ -752,11 +753,7 @@ header img.logo {
     }
 }
 
-.container {
-    padding: 5px;
-    max-width: 1700px;
-    margin: auto;
-}
+
 
 .section {
     margin: 20px 0;
@@ -1307,7 +1304,7 @@ background-color: #0056b3;
     max-width: 1800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f0f0f0;
+ 
     border-radius: 8px;
     
 }
@@ -1346,3 +1343,66 @@ background-color: #0056b3;
 .navbar-logo img {
     height: 60px; /* Adjust size as needed */
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Title (Heading) Styling */
+.fh5co-heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.fh5co-heading p {
+
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Divider Styling */
+.section-divider {
+    border-bottom: 2px solid #007bff65;
+    margin: 40px 0;
+}
+
+/* Background Colors */
+.fh5co-white {
+    background-color: #fff;
+}
+
+.fh5co-light-grey {
+    background-color: #f7f7f7;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .fh5co-heading h2 {
+        font-size: 28px;
+    }
+
+    .fh5co-heading p {
+        font-size: 16px;
+    }
+
+    .section-divider {
+        margin: 20px 0;
+    }
+
+    /* Ensure the layout stacks vertically on mobile */
+    .col-md-push-6,
+    .col-md-pull-6 {
+        transform: none;
+    }
+}
+
+

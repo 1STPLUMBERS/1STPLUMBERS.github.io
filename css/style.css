@@ -15,8 +15,8 @@ body {
   font-weight: 300;
   font-size: 14px;
   line-height: 1.7;
-  color: gray;
-  background: #e8e8e8;
+  color: rgb(49, 46, 46);
+  background: #0073e62c;
 }
 
 #page {
@@ -42,7 +42,7 @@ body {
   bottom: 0;
   left: 0;
   z-index: 101;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgb(255, 255, 255);
   content: "";
 }
 
@@ -63,7 +63,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
+  color: #0073e6;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -85,10 +85,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .container-wrap {
-  max-width: 1060px;
+  max-width: 1850px;
   margin: 0 auto;
   margin-bottom: 1em;
-  background: #fff;
+  background: #ffffff;
 }
 @media screen and (max-width: 768px) {
   .container-wrap {
@@ -378,12 +378,17 @@ h1, h2, h3, h4, h5, h6, figure {
   overflow: hidden;
 }
 #fh5co-hero .flexslider .slides li {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom center;
+
+
+  background-position: center;
   min-height: 500px;
   position: relative;
+  background-size: cover;       /* Ensure the image covers the container */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  background-attachment: scroll; /* Scrolls with the page (or 'fixed' to stay in place) */
+  height: 10vh;                /* Make sure the container takes full viewport height */
 }
+
 #fh5co-hero .flexslider .flex-control-nav {
   bottom: 80px;
   z-index: 1000;
@@ -1003,7 +1008,8 @@ input[type="text"] {
 #fh5co-footer {
   margin-top: 20px !important;
   padding: 20px 0;
-  background-color: #333;
+  background-color: #0056b3;
+;
   color: #fff;
   text-align: center; /* Center content horizontally */
 }
